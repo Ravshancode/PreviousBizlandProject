@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+.Contener>.row1{
+    height: 100vh;
+    width: 100%;
+    background-color: #e3edf7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.row1>div{
+    width: 40%;
+    background-color: #e3edf7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contener>.row1>p{
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color:#777;
+    margin: 0 auto;
+}
+.row1>div>input,.row2>div>input{
+    margin: 10px auto;
+    display: block;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border: 0.3px solid rgb(139 119 117);
+    border-radius: 6px;
+    padding: 18px 15px;
+}
+.row1>div>label{
+    padding: 0 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+#year{
+    padding:0 40px 8px 40px;
+    margin: 10 auto;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+.color{
+    color:#ff0000;
+    display: inline-block;
+}
+#butonId {
+    transition: 0.4s;
+    padding:8px  20px;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius:8px;
+    background-color: rgb(184, 179, 179);
+    border: 0;
+}
+#butonId:hover,#Idbtn:hover{
+    background-color: #777;
+}
+#butonId:active,#Idbtn:active{
+    background-color: rgb(46, 45, 45);
+}
+.row1>.row2{
+display: none;
+
+}
+.row2>div{
+    width: 100%;
+    background-color: #e3edf7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.row2  a{
+    transition: 0.4s;
+    padding: 10px 20px;
+     font-size: 20px;
+     text-decoration: none;
+     text-align: center;
+    margin-top: 20px;
+    border-radius:8px;
+    background-color: rgb(184, 179, 179);
+    border: 0;
+}
+#Idbtn{
+    width: 35%;
+   margin: 0 auto;
+}
+@media (min-width: 120px) and (max-width: 320px) {
+    .row1>div{
+        width: 100%;
+    }
+}
+@media (min-width: 321px) and (max-width: 440px) {
+    .row1>div{
+        width: 100%;}
+}
+@media (min-width:441px) and (max-width: 600px) {
+    .row1>div{
+        width: 90%;}
+}
+@media (min-width:601px) and (max-width: 800px) {
+    .row1>div{
+        width: 80%;}
+}
